@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-const Cum = <div>
+const Cum = <div className = "yee">
   
- <div className = "negr">
-    <div className = "lul"></div> 
-   <div className = "negr__block"></div></div>
- <div className = "negr"></div>
- 
-
+  <div className = "negr"></div>
+  <div className = "negr"></div>
+  <div className = "negr"></div>
+  <div className = "negr"></div>
+  
 </div>
 
 
