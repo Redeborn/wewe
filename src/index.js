@@ -6,7 +6,7 @@ import './index.css';
 const Cum = <div>
   
  <div className = "negr">
-   <div className = "lul"></div>
+    <div className = "lul"></div> 
    <div className = "negr__block"></div></div>
  <div className = "negr"></div>
  
