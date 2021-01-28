@@ -11,21 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.yee{display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.yee{
+  
+  
 
 }
 
-.negr{
-  
-  
-  background-color: blue;
- margin-top: 50px;
- margin-left: 25px;
-  width: 308px;
-  height: 447px;
-  
+body{
+  background-color:#FBFBFB;
 }
+
+
+.stolb{display: grid; 
+  grid-template-columns: 324px;
+  
+  
+  
+
+
+}
+.iii{
+  background-color: white;
+  padding-left: 42px;
+  height: 100vh;
+
+}
+.evgen{height: 56px;
+  width: 154px;
+  color: #707EFF;
+  
+  
+  
+
+
+}
+.pr{
+  height: 24px;
+  width: 136px;
+  margin-top: 258px;
+}
+
+
+.dz{
+  height: 24px;
+  width: 136px;
+  margin-top: 62px;
+}
+.marks{
+  width: 104px;
+  height:24px ;
+  margin-top: 62px;
+
+}
+.dop{
+  width: 191px;
+  height: 24px;
+  margin-top: 62px;
+}
+.gei{
+  width: 127px;
+  height: 27px;
+  margin-top: 483px;
+}
+
+
+
+
+
+
+  
+  
+ 
+  
+
 
   
