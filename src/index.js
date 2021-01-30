@@ -1,26 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import img from "./src2/VK.svg"
 
 
-const Cum = <div className = "yee">
-<div className = "stolb">
-  <div className = "iii">
-    <div className = "evgen"><h1>EvgenApp</h1></div>
-    <div className = "pr"><h1><b>Предметы</b></h1></div>
-    <div className = "dz"><h1>Домашняя работа</h1></div>
-    <div className = "marks"><h1>Оценки</h1></div>
-    <div className = "dop"><h1>Доп. материал</h1></div>
-    <div className = "gei"><b>@Gladio.dev</b></div>
-  </div>
-<div className = "vv">
+const Cum = <div className = "biba">
+<div className = "yee">
 
+<div className = "stolb"> 
+<div className = "welcum"><b>Добро пожаловать в EvgenApp!</b></div>
+<div className = "kostil">
+ <div className = "ent"><b>Вход</b></div>
+ <div className = "reg"><b>Регистрация</b></div>
 </div>
-  </div>
-  
+<input className = "fio" placeholder = "ФИО"></input>
+<input className = "email" placeholder = "E-mail"></input>
+<input className = "password" placeholder = "Password"></input>
+<button className = "butt"><b>Зарегистрироваться</b></button>
+<div className = "huy">
+ <div className = "tut"></div>
+ <div>или</div>
+ <div className = "tut"></div>
  
 </div>
 
+<button className = "VK"><img src = {img}/><p>Войти с помощью VK</p></button>
+
+</div>
+ 
+</div>
+</div>
 
 
 
