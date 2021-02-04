@@ -105,10 +105,13 @@ body{
   outline: none;
   
 }
-.answact:hover{filter: drop-shadow(4px 8px 8px rgba(167, 181, 255, 1));
-  
-  transition: 0.3s;
+.answact:hover{background-color: magenta;
+  transition: 0.5s;
 
+}
+.answ:hover{
+  background-color: magenta;
+  transition: 0.5s;
 }
 
 .useless{

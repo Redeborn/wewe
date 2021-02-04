@@ -23,7 +23,7 @@ const per = <div className = "biba">
   </p>
   <div className = "answers">
     <button className = "answ">to</button>
-    <button className = "answact">with</button>
+    <button className = "answ">with</button>
     <button className = "answ">from</button>
     <button className = "answ">who</button>
 
