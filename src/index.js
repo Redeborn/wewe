@@ -1,41 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import img from "./src2/VK.svg"
 
 
-const Cum = <div className = "biba">
-<div className = "yee">
+const per = <div className = "biba">
+  
+  <div className = "group">
+    <button className = "buttonact">1</button>
+    <button className  ="button">2</button>
+    <button className  ="button">3</button>
+    <button className  ="button">4</button>
+    <button className  ="button">5</button>
+  </div>
 
-<div className = "stolb"> 
-<div className = "welcum"><b>Добро пожаловать в EvgenApp!</b></div>
-<div className = "kostil">
- <div className = "ent"><b>Вход</b></div>
- <div className = "reg"><b>Регистрация</b></div>
-</div>
-<input className = "fio" placeholder = "ФИО"></input>
-<input className = "email" placeholder = "E-mail"></input>
-<input className = "password" placeholder = "Password"></input>
-<button className = "butt"><b>Зарегистрироваться</b></button>
-<div className = "huy">
- <div className = "tut"></div>
- <div>или</div>
- <div className = "tut"></div>
- 
-</div>
-
-<button className = "VK"><img src = {img}/><p>Войти с помощью VK</p></button>
-
-</div>
- 
-</div>
 </div>
 
 
 
 ReactDOM.render(
   
-    <div>{Cum}</div>
+    <div>{per}</div>
   ,
   document.getElementById('root')
 );

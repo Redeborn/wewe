@@ -1,128 +1,50 @@
-body {
- background-color: #FBFBFB;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-.yee{
-  
-  
-
-}
 .biba{
-  display: flex;
-  justify-content: center;
+  background-color: #fbfbff;
 }
-.stolb{ display: flex;
-  flex-direction: column;
-  
 
-}
-.welcum{
-  width: 459px;
-  height: 37px;
-  margin-top: 87px;
-  color: black;
-  font-size: 28px;
-}
-.kostil{
-  display: flex;
-  flex-direction:row;
-  justify-content: center;
-  gap: 68px;
-  
-}
-.ent{ height: 29px;
-  margin-top: 140px;
-  color: black;
-  font-size: 24px;
 
-}
-.reg{
-  height: 29px;
-  margin-top: 140px;
-  color: black;
-  font-size: 24px;
-}
-.fio{ margin-top: 35px;
-  background-color: #fff;
-  padding: 20px 10px;
- outline: none;
- border: 1px solid #E1E1E1;
- border-radius: 10px;
-
-}
-.email{
-  margin-top: 28px;
-  padding: 20px 10px;
- outline: none;
- border: 1px solid #E1E1E1;
- border-radius: 10px;
-}
-.password{
-  margin-top: 28px;
-  padding: 20px 10px;
- outline: none;
- border: 1px solid #E1E1E1;
- border-radius: 10px;
-}
-.butt{padding: 20px 10px;
-  margin-top: 63px;
-  background: #707EFF;
- border: 1px solid #5E77FF;
- box-sizing: border-box;
- border-radius: 10px;
- outline: none;
- font-family: Roboto;
- color: white;
-}
-.gg{
-  width:100%;
-  height: 1px;
-  margin-top: 46px;
-  background-color: black;
-  justify-content: center;
-
-}
-.huy{
+.group{
   display: flex;
-  margin-top: 35px;
-  flex-direction: row;
-  align-items: center;
-  gap: 2px;
- 
-  
-}
-.tut{width: 100%;
-  height: 1px;
-  background-color: black;
-}
-.VK{
-  align-items: center;
-  display: flex;
-  gap: 34px;
-  justify-content: center;
-  margin-top: 63px;
-  
-  width: 100%;
-  background: #707EFF;
- border: 1px solid #5E77FF;
- box-sizing: border-box;
- border-radius: 10px;
- outline: none;
- font-family: Roboto;
- color: white;
- font-size: 18px;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
  
 }
-.p{
+
+.buttonact
+ {width: 61.5px;
+  height: 60px;
   
-  display: flex;
+  background: #5E77FF;
+  box-shadow: 0px 4px 4px rgba(167, 181, 255, 0.5);
+  border-radius: 20px;
+  font-size: 24px;
+  outline: none;
+  border: none;
   
-  
+ 
+ 
 }
+.buttonact:hover{
+  filter: drop-shadow(4px 8px 8px rgba(167, 181, 255, 1));
+  
+  transition: 0.3s;
+}
+
+
+.button{
+  width: 61.5px;
+  height: 60px;
+  outline: none;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 20px;
+  font-size: 24px;
+}
+
+
+
   
 
 
