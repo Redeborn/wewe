@@ -1,127 +1,18 @@
-
-body{
-  background-color: #FBFBFB;
-}
-
-.group{
-  display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
- gap: 30px;
- 
-}
-
-.buttonact
- {width: 61.5px;
-  height: 60px;
-  
-  background: #5E77FF;
-  box-shadow: 0px 4px 4px rgba(167, 181, 255, 0.5);
-  border-radius: 20px;
-  font-size: 24px;
+.plus{
+  width: 100%;
+  font-size: 64px;
+  background-color: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #707EFF;
   outline: none;
-  border: none;
-  
- 
- 
 }
-.buttonact:hover{
-  filter: drop-shadow(4px 8px 8px rgba(167, 181, 255, 1));
-  
-  transition: 0.3s;
-}
-
-
-.button{
-  width: 61.5px;
-  height: 60px;
-  outline: none;
-  border: none;
-  background: #FFFFFF;
-  border-radius: 20px;
-  font-size: 24px;
-}
-  
-.time{
-  color: black;
-  font-size: 30px;
-  
-  
-}
-.p{
-  display: flex;
-  flex-direction: row;
-  margin-top: 42px;
-  justify-content: center;
-}
-.task{
-  display: flex;
-  flex-direction: column;
-  gap: 70px;
-  margin-top: 72px;
-  align-items: center;
-}
-.task1{ font-size: 30px;
-  font-family: Montserrat;
-
-}
-.task2{
-  font-size: 30px;
-  font-family: Montserrat;
-}
-
-.kn{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 121px;
-}
-.true{
-  width: 269px;
-  height: 88px;
-  background-color: white;
-  border-radius: 5px;
-  ;
-
-}
-
-.false{
-  width: 269px;
-  height: 88px;
-  background-color: white;
-  border-radius: 5px;
-
-
-}
-.false:hover{
-  background-color: #707EFF;;
+.plus:hover{
+  background-color: blue;
   transition: 0.5s;
+  color: white;
 }
-.true:hover{
-  background-color: #707EFF;;
-  transition: 0.5s;
-}
-.answer{height: 77px;
-  width: 459px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  font-size: 20px;
-  font-family: Montserrat;
-
- 
-}
-.answer:hover{
-  background-color: #707EFF;;
-  transition: 0.5s;
-}
-.useless{display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 152px;
-  
-
-}
-
 
 
 
