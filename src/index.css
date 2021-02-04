@@ -2,6 +2,7 @@
 body{
   background-color: #FBFBFB;
 }
+
 .group{
   display: flex;
  flex-direction: row;
@@ -54,96 +55,72 @@ body{
   margin-top: 42px;
   justify-content: center;
 }
-
-.bigtask{
+.task{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  
+  gap: 70px;
+  margin-top: 72px;
   align-items: center;
 }
+.task1{ font-size: 30px;
+  font-family: Montserrat;
 
-.task{
-  
-  margin-top: 72px;
-  
-  font-size: 30px;
-  
 }
 .task2{
-  margin-top: 121px;
   font-size: 30px;
   font-family: Montserrat;
- 
 }
-.answers{
+
+.kn{
   display: flex;
   flex-direction: row;
-  margin-top: 111px;
   justify-content: center;
-  gap:32px
+  margin-top: 121px;
 }
-.answact{
-  height: 71px;
-  width: 260px;
-  background-color: #707EFF;
-  border-radius: 10px;
-  outline: none;
-  border:none;
-  color: white;
-  font-size: 27px;
-  
-}
-.answ{
-  height: 71px;
-  width: 260px;
-  background-color: #FFFFFF;
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
-  border-radius: 10px;
-  font-size: 27px;
-  outline: none;
-  
-}
-.answact:hover{background-color: magenta;
-  transition: 0.5s;
+.true{
+  width: 269px;
+  height: 88px;
+  background-color: white;
+  border-radius: 5px;
+  ;
 
 }
-.answ:hover{
-  background-color: magenta;
+
+.false{
+  width: 269px;
+  height: 88px;
+  background-color: white;
+  border-radius: 5px;
+
+
+}
+.false:hover{
+  background-color: #707EFF;;
   transition: 0.5s;
 }
-
-.useless{
-  display: flex;
-  flex-direction: column;
-  
-  margin-top: 182px;
-  align-items: center;
+.true:hover{
+  background-color: #707EFF;;
+  transition: 0.5s;
 }
-
-.answered{
-  filter: brightness(110%);
+.answer{height: 77px;
   width: 459px;
-  height: 77px;
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
-  border-radius: 10px;
-  outline: none;
-  
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-size: 20px;
+  font-family: Montserrat;
+
+ 
 }
-
-
-
-
-
-
-
-
-
-
+.answer:hover{
+  background-color: #707EFF;;
+  transition: 0.5s;
+}
+.useless{display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 152px;
   
 
+}
 
 
 

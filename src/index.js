@@ -4,6 +4,8 @@ import './index.css';
 
 
 const per = <div className = "biba">
+  
+  
   <div className = "group">
     <button className = "buttonact">1</button>
     <button className  ="button">2</button>
@@ -13,28 +15,28 @@ const per = <div className = "biba">
   </div>
   
   <div className = "p">
-      <div className = "time">35:23</div>
+    <div className = "time">35:23</div>
   </div>
-  <p className = "bigtask">
-    <span className = "task">Выберите правильный вариант ответа</span>
-    <span className = "task2">How __ eat without mouth</span>
+  <span className = "task">
+    <p className = "task1">Выберите True/False</p>
+    <p className = "task2">Are you gay?</p>
 
-
-  </p>
-  <div className = "answers">
-    <button className = "answ">to</button>
-    <button className = "answ">with</button>
-    <button className = "answ">from</button>
-    <button className = "answ">who</button>
-
-
-  </div>
-  <div className = "useless">
-    <button className = "answered">Отвечено</button>
-  </div>
-
-</div>
+  </span>
   
+  
+  <div className = "kn">
+  <button className = "true">True</button>
+  <button className = "false">False</button>
+  </div>
+   
+  <div className = "useless">
+   <button className = "answer">Ответить</button>
+  </div>
+  
+  
+  
+  </div>
+ 
 
 ReactDOM.render(
   
