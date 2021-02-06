@@ -1,0 +1,82 @@
+body{
+  background-color: #fbfbfb;
+}
+
+
+.card{
+  width: 1361px;
+  height: 369px;
+  background-color: white;
+}
+.ss{
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.tasks{
+  width: 173px;
+  height: 173px;
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
+   border-radius: 10px;
+  font-family:Montserrat;
+  font-size: 14px;
+  margin-top: 40px;
+  outline: none;
+
+  
+} 
+.tasks:hover{
+  background-color: blue;
+  color: white;
+  transition: 0.5s;
+}
+.act{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding:0;
+  gap:41px;
+  margin-right: 59px;
+
+}
+.canc{
+  width: 173px;
+  height: 44px;
+  margin-top: 72px;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+  font-family: 
+  Montserrat;
+}
+.choose{
+  width: 173px;
+  height: 44px;
+  margin-top: 72px;
+  ;
+  
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+  font-family: 
+  Montserrat;
+}
+.canc:hover{
+  background-color: red;
+  color: white;
+  transition: 0.5s;
+
+}
+.choose:hover{
+  background-color: #707EFF ;
+  color: white;
+  transition: 0.5s;
+}
