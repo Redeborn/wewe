@@ -1,0 +1,77 @@
+body{
+    background-color: #fbfbfb;
+  }
+  
+  
+  .card{
+    width: 1361px;
+    height: 308px;
+    background-color: white;
+  }
+  .ss{
+    display: flex;
+   flex-direction: column;
+   padding-left: 50px;
+    
+  }
+  .task{font-size: 18px;
+    
+  font-family: 
+  Montserrat;
+  margin-top: 38px;
+  
+  
+  }
+  .zapr{
+    width: 1241px;
+    height: 55px;
+    margin-top: 33px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .act{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding:0;
+    gap:41px;
+    margin-right: 70px;
+  
+  }
+  .canc{
+    width: 173px;
+    height: 44px;
+    margin-top: 72px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    font-family: 
+    Montserrat;
+  }
+  .choose{
+    width: 173px;
+    height: 44px;
+    margin-top: 72px;
+    ;
+    
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    font-family: 
+    Montserrat;
+  }
+  .canc:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+  
+  }
+  .choose:hover{
+    background-color: #707EFF ;
+    color: white;
+    transition: 0.5s;
+  }
