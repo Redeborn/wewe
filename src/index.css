@@ -1,28 +1,36 @@
-.plus{
-  width: 100%;
-  font-size: 64px;
-  background-color: #FFFFFF;
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
-  border-radius: 10px;
-  color: #707EFF;
-  outline: none;
+body{
+    background-color: #1E1E25;
 }
-.plus:hover{
-  background-color: blue;
-  transition: 0.5s;
-  color: white;
+.boss{
+    display: flex;
+    flex-direction: column;
+    padding-left: 31px;
 }
+.name{
+margin-top: 407px;
+width: 302px;
+height: 56px;
+background-color: #1E1E25;
 
-
-
-
-
-
-  
-  
- 
-  
-
-
-  
+border-radius: 10px;
+color: #3E3E3E;
+font-family: Inter;
+font-size: 18px;
+border: none;
+}
+.enter{
+    margin-top: 27px;
+    background-color: white;
+    color: #5151FF;
+    width: 298px;
+    height: 48px;
+    border-radius: 10px;
+    outline: none;
+    font-family:Inter ;
+    font-size: 18px;
+}
+.enter:hover{
+    background: #5151FF;
+    color: white;
+    transition: 0.5s;
+}
