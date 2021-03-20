@@ -1,0 +1,63 @@
+
+.frame{
+    padding-left: 18px;
+}
+.req{
+    margin-left: 115px;
+    width: 183px;
+    height: 22px;
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+.op{
+    display: flex;
+    margin-top: 46px;
+    flex-direction: row;
+    gap:15px;
+
+}
+.op1{
+    
+    border: 1px solid #D5E7F4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    
+}
+.op2{
+    border: 1px solid #D5E7F4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    outline: none;
+    width: 149px;
+    height: 34px;
+    
+    
+}
+.kom{
+    margin-top: 20px;
+    width: 384px;
+    height: 173px;
+    font-family: Montserrat;
+    font-size: 18px;
+    border: 1px solid #002065;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    
+}
+.additionalClass{
+    background-color: green;
+}
+.matl{
+    background-color: green;
+}

@@ -1,0 +1,54 @@
+.pp{margin-top: 61px;
+    font-family: 
+    Montserrat;
+    font-size: 18px;
+    color: #002065;
+    margin-left: 120px;
+
+}
+.frame{
+    padding-left: 15px;
+
+}
+
+.pass{
+    border-radius: 10px;
+    width: 384px;
+    height: 73px;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    font-family: 
+    Montserrat;
+    font-size: 18px;
+    color: #002065;
+}
+.passholder{display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+.pass{
+    border-radius: 10px;
+    width: 384px;
+    height: 73px;
+    background-color: #E6E5E6;
+    color: #002065;
+}
+.k{
+    margin-top: 25px;
+}
+.x{
+    margin-top: 17px;
+    width: 384px;
+    height: 73px;
+    color: white;
+    background-color: #3F9F2B;
+    outline: none;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 18px;
+}

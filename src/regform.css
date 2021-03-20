@@ -5,7 +5,7 @@
 .ing{
     margin-top: 41px;
 }
-.useless{
+.reg{
     display: flex;
     flex-direction: column;
     gap:23px;
@@ -33,10 +33,22 @@
     font-family: Montserrat;
 }
 .acc{
-    margin-top:119px;
+    margin-top:23px;
     font-size: 18px;
     font-family: Montserrat;
 }
 .sr{
     color: #3F9F2B;
+}
+.regin{
+    width: 360px;
+    height: 73px;
+    outline: none;
+    border: 1px solid #002065;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: white;
+    background-color: #3F9F2B;
 }

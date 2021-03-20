@@ -1,0 +1,40 @@
+.frame{
+padding-left: 18px;
+}
+.txt{
+    margin-left: 75px;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #002065;
+    height: 22px;
+
+}
+.sps{margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+
+
+}
+
+.logform{
+    width: 378px;
+    height: 73px;
+    border-radius: 10px;
+    outline: none;
+    font-family:Montserrat;
+    font-size: 18px;
+    
+
+
+}
+.add{
+background-color: #3F9F2B;
+color: white;
+font-family:Montserrat;
+font-size:18px;
+width: 378px;
+height: 73px;
+outline: none;
+border-radius: 10px ;
+}
